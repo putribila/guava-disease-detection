@@ -1,0 +1,52 @@
+{
+    "Healthy": {
+        "title": "Healthy Guava",
+        "severity": "Low",
+        "description": "The guava fruit appears healthy with no visible disease symptoms.",
+        "symptoms": [
+            "Fresh green skin",
+            "No lesions",
+            "No insect damage"
+        ],
+        "cause": "None",
+        "recommendation": [
+            "Maintain regular watering",
+            "Apply balanced fertilizer",
+            "Monitor fruit periodically"
+        ]
+    },
+    "Anthracnose": {
+        "title": "Anthracnose",
+        "severity": "High",
+        "description": "Anthracnose is a fungal disease caused by Colletotrichum species. It attacks fruit surfaces causing black circular lesions and fruit rot.",
+        "symptoms": [
+            "Black circular spots",
+            "Sunken lesions",
+            "Fruit rot"
+        ],
+        "cause": "Colletotrichum gloeosporioides",
+        "recommendation": [
+            "Remove infected fruit",
+            "Apply fungicide",
+            "Improve air circulation",
+            "Avoid excessive humidity"
+        ]
+    },
+    "Fruit Fly": {
+        "title": "Fruit Fly",
+        "severity": "Medium",
+        "description": "Fruit flies lay eggs inside the fruit. The larvae feed internally causing fruit damage and premature fruit drop.",
+        "symptoms": [
+            "Small puncture holes",
+            "Soft fruit",
+            "Premature fruit drop"
+        ],
+        "cause": "Bactrocera dorsalis",
+        "recommendation": [
+            "Use fruit fly traps",
+            "Remove infested fruit",
+            "Wrap developing fruit",
+            "Maintain orchard sanitation"
+        ]
+    }
+}

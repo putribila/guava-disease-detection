@@ -1,0 +1,207 @@
+/* ===========================
+   GLOBAL
+=========================== */
+
+.main-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1B4332;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: #6c757d;
+    font-size: 17px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+/* ===========================
+CARD
+=========================== */
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    border: 1px solid #E9ECEF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .12);
+}
+
+/* ===========================
+PREDICTION CARD
+=========================== */
+
+.prediction-card {
+    background: linear-gradient(135deg, #00B894, #00CEC9);
+    color: white;
+    border-radius: 12px;
+    padding: 12px 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.prediction-card h3 {
+    font-size: 15px;
+    margin: 0 0 6px 0;
+    opacity: 0.9;
+}
+
+.prediction-card h1 {
+    font-size: 26px;
+    margin: 0 0 6px 0;
+    font-weight: 700;
+}
+
+.prediction-card h2 {
+    font-size: 18px;
+    margin: 0;
+    opacity: 0.95;
+}
+
+/* ===========================
+CONFIDENCE
+=========================== */
+
+.metric-number {
+
+    font-size: 50px;
+
+    font-weight: bold;
+
+    color: #198754;
+
+}
+
+/* ===========================
+SECTION TITLE
+=========================== */
+
+.section-title {
+
+    font-size: 24px;
+
+    font-weight: 700;
+
+    color: #2D3436;
+
+    margin-top: 25px;
+
+    margin-bottom: 15px;
+
+}
+
+/* ===========================
+INFO BOX
+=========================== */
+
+.info-box {
+
+    background: #F8F9FA;
+
+    border-left: 5px solid #00B894;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    margin-bottom: 10px;
+
+}
+
+/* ===========================
+SUCCESS BOX
+=========================== */
+
+.success-box {
+
+    background: #E8F8F5;
+
+    border-radius: 12px;
+
+    padding: 18px;
+
+}
+
+/* ===========================
+IMAGE
+=========================== */
+
+img {
+
+    border-radius: 15px;
+
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+.footer {
+
+    color: #999;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+    font-size: 14px;
+
+}
+
+/* ===========================
+METRICS CUSTOMIZATION
+=========================== */
+div[data-testid="stMetricValue"] {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+div[data-testid="stMetricLabel"] {
+    font-size: 13px !important;
+}
+
+.kpi-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.kpi-card {
+    flex: 1;
+    min-width: 0;
+    background: #ffffff;
+    border: 1px solid #E9ECEF;
+    border-radius: 8px;
+    padding: 10px 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.kpi-card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.kpi-card .kpi-title {
+    font-size: 11px;
+    color: #6C757D;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.kpi-card .kpi-value {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1B4332;
+    line-height: 1.3;
+}
