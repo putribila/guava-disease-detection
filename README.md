@@ -6,7 +6,7 @@ An end-to-end Explainable AI (XAI) web application developed to classify guava f
 ## Live Deploy Dashboard 
 
 🔗 **View Interactive Dashboard:**  
-[guava-disease-detector.streamlit.app]([https://datastudio.google.com/reporting/e77ffbee-3848-4ce1-9573-7fe47da3f07b](https://guava-disease-detector.streamlit.app/))
+[https://guava-disease-detector.streamlit.app]((https://guava-disease-detector.streamlit.app/))
 
 ---
 
