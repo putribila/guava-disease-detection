@@ -68,11 +68,11 @@ for disease, info in disease_information.items():
         if "symptoms" in info:
             st.markdown("### Symptoms")
             for item in info["symptoms"]:
-                st.write("✅", item)
+                st.write("•", item)
         elif "characteristics" in info:
             st.markdown("### Characteristics")
             for item in info["characteristics"]:
-                st.write("✅", item)
+                st.write("•", item)
 
     with detail_cols[1]:
         st.markdown("### Causes")
@@ -86,10 +86,10 @@ for disease, info in disease_information.items():
         if "prevention" in info:
             st.markdown("### Prevention")
             for item in info["prevention"]:
-                st.write("🟢", item)
+                st.write("•", item)
         elif "recommendation" in info:
             st.markdown("### Recommendation")
             for item in info["recommendation"]:
-                st.write("🟢", item)
+                st.write("•", item)
 
     st.divider()
